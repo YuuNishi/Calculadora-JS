@@ -6,6 +6,15 @@ main{
     left: 50%;
     transform: translateX(-50%);
 }
+.value{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .button{
     height: 40px;
     width: 50px;
@@ -14,7 +23,6 @@ main{
     color: rgb(28, 28, 46);
     background-color: rgb(86, 86, 128);
 }
-
 .operators{
     color: rgb(30, 95, 156);
     background-color: rgb(224, 249, 250);
