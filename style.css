@@ -1,0 +1,8 @@
+main{
+    position: absolute;
+    height: 800px;
+    width: 400px;
+    background-color: rgb(135, 135, 197);
+    left: 50%;
+    transform: translateX(-50%);
+}
