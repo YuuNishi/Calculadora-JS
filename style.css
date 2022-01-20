@@ -1,29 +1,33 @@
+*{
+    margin: 0;
+    padding:0;
+}
 main{
     position: absolute;
-    height: 800px;
-    width: 400px;
-    background-color: rgb(135, 135, 197);
+    height: 700px;
+    width: 350px;
+    background-color: var(--color-dark-violet);
     left: 50%;
     transform: translateX(-50%);
+    padding: 5% 2%;
 }
 .value{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    background-color: var(--color-blanc);
+    height: 15px;
 }
 .grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr); 
 }
 .button{
-    height: 40px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
+    margin: 1px;
+    color: var(--color-purple);
 }
 .numbers{
-    color: rgb(28, 28, 46);
-    background-color: rgb(86, 86, 128);
+    background-color: var(--color-violet);
 }
 .operators{
-    color: rgb(30, 95, 156);
-    background-color: rgb(224, 249, 250);
+    background-color: var(--color-blanc);
 }
