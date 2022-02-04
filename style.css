@@ -16,8 +16,6 @@ h1{
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
 }
-
-
 .value{
     background-color: var(--color-blanc);
     text-align: right;
